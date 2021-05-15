@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+    
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 5em;
+    border-bottom:  20px rgb(54, 54, 54);
+    text-align: center;
+    box-shadow: 4px 4px 5px brown;
+    background-color: midnightblue;
+}
+h2 {
+    font-family: fantasy;
+    font size:2em;    
+}
+p {
+    background-color: lightblue;
+    font-style: italic;
+}
+img {
+    width: 400px;
+    length:200px;
+    margin:10px;
+    transition: all 30ms;
+}
+img:hover {
+    transform: scale(1.1);
+    animation: cubic-bezier(1.1);
+}
